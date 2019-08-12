@@ -1,5 +1,5 @@
 
-use ventas2;
+use ventas;
 
 create table usuarios(
 				id_usuario int auto_increment,
