@@ -58,7 +58,7 @@ $result=mysqli_query($conexion,$sql);
  			cliente: <?php echo $objv->nombreCliente($idcliente); ?>
  		</p>
  		
- 		<table style="border-collapse: collapse;" border="1">
+	<table style="border-collapse: collapse;">
  			<tr>
  				<td>Nombre</td>
  				<td>Precio</td>

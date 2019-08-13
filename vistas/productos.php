@@ -19,6 +19,8 @@
 	$result=mysqli_query($conexion,$sql);
 
  ?>
+ <body id="container-page-product">
+
   <section id="store">
   <div class="container">
     <div class="row">
@@ -36,8 +38,9 @@
                                                 <h3><?php echo $ver[0]; ?></h3> <!--nombre-->
                                                 <p><?php echo $ver[1]; ?></p> <!--Descripcion-->
                                                 <p>$<?php echo $ver[3]; ?></p><!--precio-->
+                                               
                                                 <p class="text-center">
-                                                    <a href="" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i>&nbsp; Detalles</a>&nbsp;&nbsp;
+                                                    <a href="VerDetalle.php?id_producto=<?php echo $ver[6]; ?>" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i>&nbsp; Detalles</a>&nbsp;&nbsp;
                                                     <button value="'" class="btn btn-success btn-sm botonCarrito"><i class="fa fa-shopping-cart"></i>&nbsp; Añadir</button>
                                                 </p>
 
@@ -60,3 +63,4 @@
         </div>
     </div>
 </section>
+</body>
