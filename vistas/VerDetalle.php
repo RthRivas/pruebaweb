@@ -45,7 +45,7 @@
                                     </div>
                                     <br><br><br>
                                     <div class="col-xs-12 text-center">
-                                        <a href="../index.php"class="btn btn-lg btn-primary"><i class="fa fa-mail-reply"></i>Regresar a la tienda</a> 
+                                        <a href="inicio.php"class="btn btn-lg btn-primary"><i class="fa fa-mail-reply"></i>Regresar a la tienda</a> 
                                         <button value="'.$fila['id_producto'].'" class="btn btn-lg btn-success botonCarrito"><i class="fa fa-shopping-cart"></i> Añadir al carrito</button>
                                     </div>
                                     <?php endwhile; ?>
