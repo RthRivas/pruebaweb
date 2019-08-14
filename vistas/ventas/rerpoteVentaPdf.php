@@ -1,7 +1,7 @@
 <?php 
 	require_once "../../clases/Conexion.php";
 	require_once "../../clases/Ventas.php";
-
+	include "../../librerias/fpdf/fpdf.php";
 	$objv= new ventas();
 
 
